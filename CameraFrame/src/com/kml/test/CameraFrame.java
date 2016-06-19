@@ -23,7 +23,6 @@ public class CameraFrame extends JFrame{
 	private static final long serialVersionUID = 1L;
 	private JPanel cameraPanel=null;//摄像头面板
 	private static int num=0;
-	
 	public CameraFrame() throws Exception{
 		this.setTitle("摄像头截图工具");
 		this.setSize(480, 500);
